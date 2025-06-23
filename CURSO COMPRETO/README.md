@@ -1,4 +1,25 @@
 # INSTRUÇÕES (GENERICAS)
+
+---
+## INDICE
+- [01) INTRODUÇÃO AO PROTOCOLO WEBSOCKETS](./README.md#01-introdu%C3%A7%C3%A3o-ao-protocolo-websockets)
+- [02) INSTALAÇÃO DAS FERRAMENTAS](./README.md#02-instala%C3%A7%C3%A3o-das-ferramentas)
+- [03) CRIANDO O PROJETO NODE.JS](./README.md#03-criando-o-projeto-nodejs)
+- [04) ABRINDO O PROJETO, CRIANDO ARQUIVOS E INICIANDO O SERVIDOR](./README.md#04-abrindo-o-projeto-criando-arquivos-e-iniciando-o-servidor)
+- [05) CRIANDO CÓDIGO HTML E ADICIONANDO CSS](./README.md#05-criando-c%C3%B3digo-html-e-adicionando-css)
+- [06) INCLUINDO AS BIBLIOTECAS NA APLICAÇÃO SERVIDORA](./README.md#06-incluindo-as-bibliotecas-na-aplica%C3%A7%C3%A3o-servidora)
+- [07) INICIANDO SERVIDOR HTTP COM NODE.JS](./README.md#07-iniciando-servidor-http-com-nodejs)
+- [08) ATENDENDO REQUISIÇÕES HTTP](./README.md#08-atendendo-requisi%C3%A7%C3%B5es-http)
+- [09) USANDO JQUERY E CONECTANDO AO SERVIDOR VIA WEBSOCKET COM SOCKET.IO](./README.md#09-usando-jquery-e-conectando-ao-servidor-via-websocket-com-socketio)
+- [10) ENVIO DE MENSAGENS VIA WEBSOCKET NO FRONT-END](./README.md#10-envio-de-mensagens-via-websocket-no-front-end)
+- [11) RECEBIMENTO DE MENSAGENS WEBSOCKET NO SERVIDOR](./README.md#11-recebimento-de-mensagens-websocket-no-servidor)
+- [12) ENCAMINHAMENTO DE MENSAGENS AOS USUÁRIOS CONECTADOS](./README.md#12-encaminhamento-de-mensagens-aos-usu%C3%A1rios-conectados)
+- [13) DEFININDO UM NICKNAME (APELIDO) PARA USUÁRIO](./README.md#13-definindo-um-nickname-apelido-para-usu%C3%A1rio)
+- [14) MOSTRANDO QUANDO UM USUÁRIO ESTÁ DIGITANDO...](./README.md#14-mostrando-quando-um-usu%C3%A1rio-est%C3%A1-digitando)
+- [16) HOSPEDAGEM GRATUITA DE APLICAÇÃO DE CHAT WEBSOCKET COM NODE.JS NO HEROKU](./README.md#16-hospedagem-gratuita-de-aplica%C3%A7%C3%A3o-de-chat-websocket-com-nodejs-no-heroku)
+- [18) SOBRE OS OUTROS "WEBSOCKETS"](#18-sobre-os-outros-websockets)
+---
+
 ## 01) INTRODUÇÃO AO PROTOCOLO WEBSOCKETS
 O protocolo WebSocket foi introduzido com o HTML5 para superar as limitações do protocolo HTTP em aplicações que requerem comunicação em tempo real. Ao contrário do HTTP, que é baseado no modelo de requisição-resposta, o WebSocket estabelece uma conexão persistente e bidirecional entre o cliente e o servidor. Isso permite a troca contínua de dados com baixa latência, tornando-o ideal para aplicações que exigem atualização constante e rápida.
 
